@@ -1,0 +1,11 @@
+[package]
+name = "lau-electromagnetism"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Classical electromagnetism library: Maxwell's equations, electrostatics, magnetostatics, EM waves, Lorentz force, and agent field interaction models"
+repository = "https://github.com/SuperInstance/lau-electromagnetism"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
